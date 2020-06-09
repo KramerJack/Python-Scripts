@@ -46,6 +46,7 @@ from sklearn import metrics
 
 #START DATA IMPORT AND DISCOVERY
 
+#kaggle.com data set can be downloaded here: https://www.kaggle.com/mlg-ulb/creditcardfraud
 #loading the dataset into a df
 data = pd.read_csv("INSERT FILE PATH TO CREDIT CARD FRAUD CSV")
 data = pd.DataFrame(data)
